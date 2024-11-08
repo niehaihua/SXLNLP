@@ -129,9 +129,9 @@ def train(corpus_path, save_weight=True):
     window_size = 10       #样本文本长度
     vocab_size = 21128      #字表大小
     learning_rate = 0.001  #学习率
-    
 
-    pretrain_model_path = r'F:\Desktop\work_space\pretrain_models\bert-base-chinese'
+
+    pretrain_model_path = r'E:\badouai\bert-base-chinese'
     tokenizer = BertTokenizer.from_pretrained(pretrain_model_path)
 
     corpus = load_corpus(corpus_path)     #加载语料
@@ -167,4 +167,4 @@ def train(corpus_path, save_weight=True):
 
 if __name__ == "__main__":
     # build_vocab_from_corpus("corpus/all.txt")
-    train("corpus.txt", False)
+    train("E:/badouai/作业/第十周作业/corpus.txt", False)

@@ -1,0 +1,1 @@
+pooling方法和rnn方法的区别

@@ -1,0 +1,1 @@
+使用bert模型mask构建，sft训练
